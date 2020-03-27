@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping(MemberController.BASE_URL)
 public class MemberController {
-    static final String BASE_URL = "/api/v1/members";
+    static final String BASE_URL = "/members";
 
     private final MemberService memberService;
 
